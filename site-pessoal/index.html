@@ -10,10 +10,10 @@
 
 <body>
   <nav
-    class="w-full lg:w-4/5 h-24 px-4 sm:px-6 md:px-14 left-1/2 -translate-x-1/2 flex items-center justify-start md:justify-center transition-all fixed top-0 backdrop-blur-lg rounded-md text-black text-lg">
+    class="w-full lg:w-4/5 h-24 px-4 sm:px-6 md:px-14 left-1/2 -translate-x-1/2 flex items-center justify-start md:justify-center transition-all fixed top-0 backdrop-blur-lg rounded-md text-[#74798b] text-lg">
     <div id="nav-links" class="flex gap-x-16">
       <a href="#sobre" class="btn-nav">Sobre</a>
-      <a href="#formacao" class="btn-nav">Formação Acadêmica</a>
+      <a href="#habilidades" class="btn-nav">Habilidades</a>
       <a href="#projetos" class="btn-nav">Projetos</a>
       <a href="#experiencia" class="btn-nav">Experiência</a>
       <a href="#contato" class="btn-nav">Contato</a>
@@ -23,43 +23,114 @@
         </svg></button>
     </div>
     <div id="mobile-menu"
-      class="hidden w-full max-w-full flex flex-col p-5 gap-5 top-24 left-0 absolute z-50 bg-white backdrop-blur-lg shadow-md text-black transition-all">
+      class="hidden w-full max-w-full flex flex-col p-5 gap-5 top-24 left-0 absolute z-50 bg-white backdrop-blur-lg shadow-md text-[#74798b ] transition-all">
       <a href="#sobre" class="btn-nav">Sobre</a>
-      <a href="#formacao" class="btn-nav">Formação Acadêmica</a>
+      <a href="#habilidades" class="btn-nav">Habilidades</a>
       <a href="#projetos" class="btn-nav">Projetos</a>
       <a href="#experiencia" class="btn-nav">Experiência</a>
       <a href="#contato" class="btn-nav">Contato</a>
     </div>
   </nav>
   <main class="w-full pt-56">
-    <h1 class="text-5xl font-bold underline text-center">Pedro König Scheuer</h1>
-    <section id="sobre"
-      class="w-full lg:w-6/7  mx-auto h-auto flex flex-col md:flex-row bg-cover bg-center bg-white pt-32 p-10">
-      <div class="w-full h-auto p-6 bg-black rounded-md">
+    <div class="flex justify-center flex-col">
+      <h1 class="text-5xl font-bold underline text-center">Pedro König Scheuer</h1>
+      <div class="flex justify-center my-4 gap-x-4">
+        <a href="https://www.linkedin.com/in/pedro-konig-scheurer/" target="_blank"
+          class="group p-3 rounded-full bg-gray-200 hover:bg-blue-600 transition-colors duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+            class="w-8 h-8 text-gray-700 group-hover:text-white transition-colors duration-300" fill="currentColor">
+            <path d="M19 0h-14C2.24 0 0 2.24 0 5.01v13.98C0 21.76 
+             2.24 24 5.01 24h13.98C21.76 24 24 21.76 24 
+             18.99V5.01C24 2.24 21.76 0 18.99 0zM7.12 
+             20.45H3.56V9h3.56v11.45zM5.34 7.44c-1.14 
+             0-2.06-.93-2.06-2.07s.92-2.07 
+             2.06-2.07c1.13 0 2.06.93 
+             2.06 2.07s-.93 2.07-2.06 
+             2.07zm15.11 13.01h-3.56v-5.59c0-1.33-.03-3.05-1.86-3.05-1.86 
+             0-2.14 1.45-2.14 2.96v5.68h-3.56V9h3.42v1.56h.05c.48-.9 
+             1.66-1.86 3.42-1.86 3.66 0 4.34 2.41 
+             4.34 5.55v6.2z" />
+          </svg>
+        </a>
+        <div class="flex justify-center">
+          <a href="https://github.com/PedroScheurer" target="_blank"
+            class="group inline-flex items-center justify-center p-3 rounded-full bg-gray-200 hover:bg-gray-800 transition-colors duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              class="w-8 h-8 text-gray-700 group-hover:text-white transition-colors duration-300" fill="currentColor">
+              <path
+                d="M12 0.297C5.373 0.297 0 5.67 0 12.297c0 5.292 3.438 9.77 8.205 11.366.6.11.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.753-1.333-1.753-1.09-.744.083-.729.083-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.807 1.304 3.492.997.108-.775.42-1.304.763-1.604-2.665-.3-5.466-1.334-5.466-5.933 0-1.31.468-2.38 1.235-3.22-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.48 11.48 0 013.003-.404c1.02.005 2.045.138 3.003.404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.873.12 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.63-5.48 5.926.431.372.815 1.102.815 2.222 0 1.604-.014 2.896-.014 3.286 0 .32.216.694.825.576C20.565 22.064 24 17.587 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <section id="sobre" class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 p-10">
+      <div class="w-full h-auto p-10 shadow-lg bg-black rounded-md">
         <h2 class="text-2xl text-white">SOBRE</h2>
       </div>
+      <div class="w-full mt-5 flex items-center justify-center">
+        <img src="https://avatars.githubusercontent.com/u/211411062?v=4" alt="Imagem de Pedro"
+          class="max-w-3xs mx-auto rounded-full shadow-md w-1/2 object-cover">
+      </div>
+      <div class="mt-4 p-5 shadow-lg">
+        <p class="text-lg">
+          Eu sou um estudante de ciência da computação e estou focado no estudo de desenvolvimento de software. Meu foco
+          é principalmente
+          em software web e tenho conhecimento com Nodejs e Java para o backend e React para o frontend. Na parte de
+          banco de dados, gosto de utilizar
+          PostgreSQL ou MongoDB, depende da situação. Além disso, tenho conhecimento em Python focado para Data Science,
+          trabalhando
+          com tratamento e análise de dados. Gosto de resolver problemas que ajudem no mundo real e não consigo parar de
+          pensar em um até resolve-lo.
+        </p>
+      </div>
+
     </section>
-    <section id="formacao"
-      class="w-full lg:w-6/7  mx-auto h-auto flex flex-col md:flex-row bg-cover bg-center bg-white pt-32 p-10">
-      <div class="w-full h-auto p-6 bg-black rounded-md">
-        <h2 class="text-2xl text-white">FORMAÇÃO</h2>
+    <section id="habilidades"
+      class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 p-10">
+      <div class="w-full h-auto p-10 shadow-lg bg-black rounded-md">
+        <h2 class="text-2xl text-white">HABILIDADES</h2>
+      </div>
+      <div class="my-10 p-5 shadow-lg">
+        <h3 class="text-2xl py-3">Linguagens</h3>
+        <hr>
+        <div class="flex flex-row gap-5">
+          <div>as</div>
+          <div></div>
+          <div>ss</div>
+          <div></div>
+        </div>
+      </div>
+      <div class="p-5 shadow-lg">
+        <h3 class="text-2xl py-3">Frameworks</h3>
+        <hr>
+      </div>
+      <div class="my-10 p-5 shadow-lg">
+        <h3 class="text-2xl py-3">Bibliotecas</h3>
+        <hr>
+
+      </div>
+      <div class="p-5 shadow-lg">
+        <h3 class="text-2xl py-3">Outros</h3>
+        <hr>
+
       </div>
     </section>
-    <section id="projetos"
-      class="w-full lg:w-6/7  mx-auto h-auto flex flex-col md:flex-row bg-cover bg-center bg-white pt-32 p-10">
-      <div class="w-full h-auto p-6 bg-black rounded-md">
+    <section id="projetos" class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 p-10">
+      <div class="w-full h-auto p-10 shadow-lg bg-black rounded-md">
         <h2 class="text-2xl text-white">PROJETOS</h2>
       </div>
     </section>
     <section id="experiencia"
-      class="w-full lg:w-6/7  mx-auto h-auto flex flex-col md:flex-row bg-cover bg-center bg-white pt-32 p-10">
-      <div class="w-full h-auto p-6 bg-black rounded-md">
+      class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 p-10">
+      <div class="w-full h-auto p-10 shadow-lg bg-black rounded-md">
         <h2 class="text-2xl text-white">EXPERIÊNCIA</h2>
       </div>
     </section>
-    <section id="contato"
-      class="w-full lg:w-6/7  mx-auto h-auto flex flex-col md:flex-row bg-cover bg-center bg-white pt-32 p-10">
-      <div class="w-full h-auto p-6 bg-black rounded-md">
+    <section id="contato" class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 p-10">
+      <div class="w-full h-auto p-10 shadow-lg bg-black rounded-md">
         <h2 class="text-2xl text-white">CONTATO</h2>
       </div>
     </section>
