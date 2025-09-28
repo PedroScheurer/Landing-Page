@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn-nav {
+  transition: all 0.5s;
+}
+
+.btn-nav:hover {
+  text-decoration: underline;
+  font-size: x-large;
+  transition: all 0.25s;
+}
