@@ -18,3 +18,12 @@ html {
   font-size: x-large;
   transition: all 0.25s;
 }
+
+.font-titulo {
+  font-family: "Playfair Display", 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+
+.font-corpo{
+  font-family: "Lato", sans-serif;
+}

@@ -5,14 +5,19 @@
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="src/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@2.15.1/devicon.min.css">
   <title>Pedro Konig Scheurer | Desenvolvedor</title>
 </head>
 
-<body>
+<body class="flex flex-col min-h-screen">
   <nav
     class="w-full lg:w-4/5 h-24 px-4 sm:px-6 md:px-14 left-1/2 -translate-x-1/2 flex items-center justify-start md:justify-center transition-all fixed top-0 backdrop-blur-lg rounded-md text-[#74798b] text-lg">
-    <div id="nav-links" class="flex gap-x-16">
+    <div id="nav-links" class="flex gap-x-16 font-corpo">
       <a href="#sobre" class="btn-nav">Sobre</a>
       <a href="#habilidades" class="btn-nav">Habilidades</a>
       <a href="#projetos" class="btn-nav">Projetos</a>
@@ -24,7 +29,7 @@
         </svg></button>
     </div>
     <div id="mobile-menu"
-      class="hidden w-full max-w-full flex flex-col p-5 gap-5 top-24 left-0 absolute z-50 bg-white backdrop-blur-lg shadow-md text-[#74798b ] transition-all">
+      class="hidden w-full max-w-full flex flex-col p-5 gap-5 top-24 left-0 absolute z-50 bg-white backdrop-blur-lg shadow-md text-[#74798b ] transition-all font-corpo">
       <a href="#sobre" class="btn-nav">Sobre</a>
       <a href="#habilidades" class="btn-nav">Habilidades</a>
       <a href="#projetos" class="btn-nav">Projetos</a>
@@ -34,8 +39,8 @@
   </nav>
   <main class="w-full pt-56">
     <div class="flex justify-center flex-col mb-55">
-      <h1 class="text-5xl font-bold underline text-center mb-5">Pedro König Scheuer</h1>
-      <h2 class="text-3xl font-bold text-center">Desenvolvedor Web</h2>
+      <h1 class="text-5xl font-bold underline text-center mb-5 font-titulo">Pedro König Scheurer</h1>
+      <h2 class="text-3xl font-bold text-center font-titulo">Desenvolvedor Jr.</h2>
       <div class="flex justify-center my-10 gap-x-4">
         <a href="https://www.linkedin.com/in/pedro-konig-scheurer/" target="_blank"
           class="group p-3 rounded-full bg-gray-200 hover:bg-blue-600 transition-colors duration-300">
@@ -68,212 +73,224 @@
     </div>
     <section id="sobre" class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 px-10">
       <div class="bg-gray-50 pb-5">
-        <div class="w-full h-auto p-10 bg-black rounded-md">
-          <h2 class="text-2xl text-white">SOBRE</h2>
+        <div class="w-full h-auto p-10 bg-black rounded-md font-titulo">
+          <h2 class="text-2xl text-white">SOBRE MIM</h2>
         </div>
         <div class="w-full mt-10 flex items-center justify-center">
           <img src="https://avatars.githubusercontent.com/u/211411062?v=4" alt="Imagem de Pedro"
             class="max-w-xs mx-auto rounded-full w-1/2 object-cover">
         </div>
-        <div class="m-10 p-5 shadow-lg bg-white rounded">
+        <div class="m-10 p-5 shadow-lg bg-white rounded text-justify font-corpo">
           <p class="text-lg">
-            Eu sou um estudante de ciência da computação e estou focado no estudo de desenvolvimento de software. Meu
-            foco
-            é principalmente
-            em software web e tenho conhecimento com Nodejs e Java para o backend e React para o frontend. Na parte de
-            banco de dados, gosto de utilizar
-            PostgreSQL ou MongoDB, depende da situação. Além disso, tenho conhecimento em Python focado para Data
-            Science,
-            trabalhando
-            com tratamento e análise de dados. Gosto de resolver problemas que ajudem no mundo real e não consigo parar
-            de
-            pensar em um até resolve-lo.
+            Sou estudante de Ciência da Computação com foco em desenvolvimento de software, principalmente para a web.
+            Tenho experiência em Node.js e Java no backend, e React no frontend.
           </p>
+          <p class="text-lg my-4">Na parte de banco de dados, utilizo tanto PostgreSQL quanto MongoDB, escolhendo a
+            tecnologia conforme a necessidade do projeto. Também possuo conhecimento em Python aplicado à Data Science,
+            com ênfase em tratamento e análise de dados.</p>
+          <p class="text-lg">Tenho entusiasmo em resolver problemas do mundo real e tenho como característica não
+            descansar até encontrar uma solução eficiente.</p>
         </div>
       </div>
     </section>
     <section id="habilidades"
       class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 px-10">
-      <div class="w-full h-auto p-10 shadow-lg bg-black rounded-md">
-        <h2 class="text-2xl text-white">HABILIDADES</h2>
+      <div class="w-full h-auto p-10 shadow-lg bg-black rounded-md font-titulo">
+        <h2 class="text-2xl text-white">HABILIDADES TÉCNICAS</h2>
       </div>
-      <div class="mt-10 p-5 shadow-lg">
-        <h3 class="text-2xl py-3">Linguagens</h3>
-        <hr class="mb-5">
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 justify-items-center">
-          <div>
-            <i class="devicon-java-plain-wordmark colored text-8xl mx-10"></i>
-            <h3 class="text-center">Java</h3>
-          </div>
-          <div>
-            <i class="devicon-python-plain-wordmark colored text-8xl mx-10"></i>
-            <h3 class="text-center">Python</h3>
-          </div>
-          <div>
-            <i class="devicon-javascript-plain colored text-8xl mx-10"></i>
-            <h3 class="text-center">Javascript</h3>
-          </div>
-          <div>
-            <i class="devicon-html5-plain-wordmark colored text-8xl mx-10"></i>
-            <h3 class="text-center">HTML</h3>
-          </div>
-          <div>
-            <i class="devicon-css3-plain-wordmark colored text-8xl mx-10"></i>
-            <h3 class="text-center">CSS</h3>
+      <div class="bg-gray-50 pb-12 px-10 font-corpo">
+        <div class="mt-10 p-5 shadow-lg bg-white">
+          <h3 class="text-2xl py-3">Linguagens</h3>
+          <hr class="mb-5">
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 justify-items-center">
+            <div>
+              <i class="devicon-java-plain-wordmark colored text-8xl mx-10"></i>
+              <h3 class="text-center">Java</h3>
+            </div>
+            <div>
+              <i class="devicon-python-plain-wordmark colored text-8xl mx-10"></i>
+              <h3 class="text-center">Python</h3>
+            </div>
+            <div>
+              <i class="devicon-javascript-plain colored text-8xl mx-10"></i>
+              <h3 class="text-center">Javascript</h3>
+            </div>
+            <div>
+              <i class="devicon-html5-plain-wordmark colored text-8xl mx-10"></i>
+              <h3 class="text-center">HTML</h3>
+            </div>
+            <div>
+              <i class="devicon-css3-plain-wordmark colored text-8xl mx-10"></i>
+              <h3 class="text-center">CSS</h3>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="p-5 shadow-lg">
-        <h3 class="text-2xl py-3">Frameworks</h3>
-        <hr class="mb-5">
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 justify-items-center">
-          <div>
-            <i class="devicon-spring-plain colored text-8xl mx-10"></i>
-            <h3 class="text-center">Spring</h3>
-          </div>
-          <div>
-            <i class="devicon-express-original-wordmark colored text-8xl mx-10"></i>
-            <h3 class="text-center">Express</h3>
-          </div>
-        </div>
-      </div>
-      <div class="my-10 p-5 shadow-lg">
-        <h3 class="text-2xl py-3">Bibliotecas</h3>
-        <hr class="mb-5">
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 justify-items-center">
-          <div>
-            <i class="devicon-react-original-wordmark colored text-8xl mx-10"></i>
-            <h3 class="text-center">React</h3>
-          </div>
-          <div>
-            <i class="devicon-tailwindcss-original-wordmark colored text-8xl mx-10"></i>
-            <h3 class="text-center">Tailwind</h3>
-          </div>
-          <div>
-            <i class="devicon-bootstrap-plain-wordmark colored text-8xl mx-10"></i>
-            <h3 class="text-center">Bootstrap</h3>
-          </div>
-          <div>
-            <i class="devicon-pandas-plain-wordmark colored text-8xl mx-10"></i>
-            <h3 class="text-center">Pandas</h3>
+        <div class="mt-10 p-5 shadow-lg bg-white">
+          <h3 class="text-2xl py-3">Frameworks</h3>
+          <hr class="mb-5">
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 justify-items-center">
+            <div>
+              <i class="devicon-spring-plain colored text-8xl mx-10"></i>
+              <h3 class="text-center">Spring</h3>
+            </div>
+            <div>
+              <i class="devicon-express-original-wordmark colored text-8xl mx-10"></i>
+              <h3 class="text-center">Express</h3>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="p-5 shadow-lg">
-        <h3 class="text-2xl py-3">Bancos de Dados</h3>
-        <hr class="mb-5">
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 justify-items-center">
-          <div>
-            <i class="devicon-postgresql-plain-wordmark colored text-8xl mx-10"></i>
-            <h3 class="text-center">PostgreSQL</h3>
-          </div>
-          <div>
-            <i class="devicon-mongodb-plain-wordmark colored text-8xl mx-10"></i>
-            <h3 class="text-center">MongoDB</h3>
+        <div class="my-10 p-5 shadow-lg bg-white">
+          <h3 class="text-2xl py-3">Bibliotecas</h3>
+          <hr class="mb-5">
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 justify-items-center">
+            <div>
+              <i class="devicon-react-original-wordmark colored text-8xl mx-10"></i>
+              <h3 class="text-center">React</h3>
+            </div>
+            <div>
+              <i class="devicon-tailwindcss-original-wordmark colored text-8xl mx-10"></i>
+              <h3 class="text-center">Tailwind</h3>
+            </div>
+            <div>
+              <i class="devicon-bootstrap-plain-wordmark colored text-8xl mx-10"></i>
+              <h3 class="text-center">Bootstrap</h3>
+            </div>
+            <div>
+              <i class="devicon-pandas-plain-wordmark colored text-8xl mx-10"></i>
+              <h3 class="text-center">Pandas</h3>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="p-5 shadow-lg">
-        <h3 class="text-2xl py-3">Outros</h3>
-        <hr class="mb-5">
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 justify-items-center">
-          <div>
-            <i class="devicon-nodejs-plain-wordmark colored text-8xl mx-10"></i>
-            <h3 class="text-center">Nodejs</h3>
+        <div class="p-5 shadow-lg bg-white">
+          <h3 class="text-2xl py-3">Bancos de Dados</h3>
+          <hr class="mb-5">
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 justify-items-center">
+            <div>
+              <i class="devicon-postgresql-plain-wordmark colored text-8xl mx-10"></i>
+              <h3 class="text-center">PostgreSQL</h3>
+            </div>
+            <div>
+              <i class="devicon-mongodb-plain-wordmark colored text-8xl mx-10"></i>
+              <h3 class="text-center">MongoDB</h3>
+            </div>
           </div>
-          <div>
-            <i class="devicon-git-plain-wordmark colored text-8xl mx-10"></i>
-            <h3 class="text-center">Git</h3>
-          </div>
-          <div>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman"
-              class="text-8xl mt-4 mx-10 w-20 h-20">
-            <h3 class="text-center">Postman</h3>
+        </div>
+        <div class="mt-10 p-5 shadow-lg bg-white">
+          <h3 class="text-2xl py-3">Outros</h3>
+          <hr class="mb-5">
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 justify-items-center">
+            <div>
+              <i class="devicon-nodejs-plain-wordmark colored text-8xl mx-10"></i>
+              <h3 class="text-center">Nodejs</h3>
+            </div>
+            <div>
+              <i class="devicon-git-plain-wordmark colored text-8xl mx-10"></i>
+              <h3 class="text-center">Git</h3>
+            </div>
+            <div>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman"
+                class="text-8xl mt-4 mx-10 w-20 h-20">
+              <h3 class="text-center">Postman</h3>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section id="projetos" class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 px-10">
-      <div class="w-full h-auto p-10 shadow-lg bg-black rounded-md">
-        <h2 class="text-2xl text-white">PROJETOS</h2>
+      <div class="w-full h-auto p-10 shadow-lg bg-black rounded-md font-titulo">
+        <h2 class="text-2xl text-white">PROJETOS PESSOAIS</h2>
       </div>
-      <div class="w-full md:w-full h-auto flex flex-col md:flex-row mt-10">
-        <div class="w-full md:w-1/2 p-5 shadow-lg text-center">
-          <h3 class="text-lg py-3">Yelp Camp</h3>
-          <hr class="mb-5">
-          <div class="m- flex justify-center">
-            <a href="https://github.com/PedroScheurer/yelp-camp">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdGIriHwMYbjKJI76jDDK8KzXXSZhiNKGs9g&s"
-                alt="" class="rounded-sm">
-            </a>
+      <div class="bg-gray-50 pb-12 px-10 font-corpo">
+        <div class="w-full md:w-full h-auto flex flex-col md:flex-row mt-10">
+          <div class="w-full md:w-1/2 p-5 shadow-md text-start bg-white">
+            <h3 class="text-lg py-3">Yelp Camp</h3>
+            <hr class="mb-5">
+            <div class="flex justify-center">
+              <a href="https://github.com/PedroScheurer/yelp-camp">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdGIriHwMYbjKJI76jDDK8KzXXSZhiNKGs9g&s"
+                  alt="yelp-camp" class="rounded-sm">
+              </a>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 p-5 shadow-md text-start mt-10 md:mt-0 bg-white">
+            <h3 class="text-lg py-3">Controle de Livros</h3>
+            <hr class="mb-5">
+            <div class="flex justify-center">
+              <a href="https://github.com/PedroScheurer/livroJS/tree/main/cap13">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdGIriHwMYbjKJI76jDDK8KzXXSZhiNKGs9g&s"
+                  alt="controle-de-livros" class="rounded-sm">
+              </a>
+            </div>
           </div>
         </div>
-        <div class="w-full md:w-1/2 p-5 shadow-lg text-center mt-10 md:mt-0">
-          <h3 class="text-lg py-3">Controle de Livros</h3>
-          <hr class="mb-5">
-          <div class="m- flex justify-center">
-            <a href="https://github.com/PedroScheurer/livroJS/tree/main/cap13">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdGIriHwMYbjKJI76jDDK8KzXXSZhiNKGs9g&s"
-                alt="" class="rounded-sm">
-            </a>
+        <div class="w-full md:w-full h-auto flex flex-col md:flex-row mt-10">
+          <div class="w-full md:w-1/2 p-5 shadow-md text-start md:mt-0 bg-white">
+            <h3 class="text-lg py-3">Jogo 2D</h3>
+            <hr class="mb-5">
+            <div class="flex justify-center">
+              <a href="https://github.com/PedroScheurer/jogo2d-a-garra">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdGIriHwMYbjKJI76jDDK8KzXXSZhiNKGs9g&s"
+                  alt="" class="rounded-sm">
+              </a>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="w-full md:w-full h-auto flex flex-col md:flex-row mt-10">
-        <div class="w-full md:w-1/2 p-5 shadow-lg text-center md:mt-0">
-          <h3 class="text-lg py-3">Jogo 2D</h3>
-          <hr class="mb-5">
-          <div class="m- flex justify-center">
-            <a href="https://github.com/PedroScheurer/jogo2d-a-garra">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdGIriHwMYbjKJI76jDDK8KzXXSZhiNKGs9g&s"
-                alt="" class="rounded-sm">
-            </a>
-          </div>
-        </div>
-        <div class="w-full md:w-1/2 p-5 shadow-lg text-center mt-10 md:mt-0">
-          <h3 class="text-lg py-3">CRUD-Biblioteca</h3>
-          <hr class="mb-5">
-          <div class="m- flex justify-center">
-            <a href="https://github.com/PedroScheurer/CRUD-Biblioteca">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdGIriHwMYbjKJI76jDDK8KzXXSZhiNKGs9g&s"
-                alt="" class="rounded-sm">
-            </a>
+          <div class="w-full md:w-1/2 p-5 shadow-md text-start mt-10 md:mt-0 bg-white">
+            <h3 class="text-lg py-3">CRUD-Biblioteca</h3>
+            <hr class="mb-5">
+            <div class="flex justify-center">
+              <a href="https://github.com/PedroScheurer/CRUD-Biblioteca">
+                <img src="/src/imgs/demo_biblioteca.png"
+                  alt="CRUD-Biblioteca" class="rounded-sm">
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section id="experiencia"
       class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 p-10">
-      <div class="w-full h-auto p-10 shadow-lg bg-black rounded-md">
-        <h2 class="text-2xl text-white">EXPERIÊNCIA</h2>
+      <div class="w-full h-auto p-10 shadow-lg bg-black rounded-md font-titulo">
+        <h2 class="text-2xl text-white">MINHA EXPERIÊNCIA</h2>
       </div>
-      <div class="w-full h-auto flex flex-col items-center mt-10">
-        <div class="w-full md:w-3/5 p-5 shadow-lg text-center md:mt-0">
-          <h3 class="text-lg py-3">Suporte Técnico</h3>
-          <hr class="mb-5">
-          <div class="m- flex justify-center">
-            <a href="https://github.com/PedroScheurer/jogo2d-a-garra">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdGIriHwMYbjKJI76jDDK8KzXXSZhiNKGs9g&s"
-                alt="" class="rounded-sm">
-            </a>
+      <div class="bg-gray-50 pb-12 px-10 font-corpo">
+        <div class="w-full h-auto flex flex-col items-center mt-10">
+          <div class="w-full md:w-4/5 p-5 shadow-lg text-start md:mt-0 bg-white">
+            <h3 class="text-2xl py-3">Suporte Técnico | 2023 - Atual</h3>
+            <hr class="mb-5">
+            <div class="flex justify-center">
+              <a href="https://www.sbsistemas.com.br/">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9GnrJpcvQJKVA1Pra-RavI71-jwruH8Y_gw&s"
+                  alt="Logo SBSistemas" class="max-w-xs mx-auto w-1/2 object-cover rounded-sm">
+              </a>
+            </div>
+            <ul class="text-lg mt-10">
+              <li>- Atendimento ao Cliente</li>
+              <li class="my-4">- Metrificação</li>
+              <li>- Tratamento de dados de outros sistemas para importação</li>
+              <li class="my-4">- Gestão de tarefas e tempo</li>
+            </ul>
+            <p class="text-lg mt-10">
+              Consegui desenvolver principalmente a minha comunição e meu trabalho em equipe. Além disso,
+              evoluí fortemente o meu raciocínio lógico na resolução de problemas técnicos.
+            </p>
           </div>
         </div>
       </div>
     </section>
     <section id="contato"
       class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 px-10 mb-70">
-      <div class="w-full h-auto p-10 shadow-lg bg-black rounded-md">
-        <h2 class="text-2xl text-white">CONTATO</h2>
+      <div class="w-full h-auto p-10 shadow-lg bg-black rounded-md font-titulo">
+        <h2 class="text-2xl text-white">MEUS CONTATOS</h2>
       </div>
-      <div class="mt-10 p-5 shadow-lg">
-        <p class="text-lg flex flex-col">
-          <span><b>Email:</b> pedrokgsr@hotmail.com</span>
-          <span class="my-5"><b>Telefone:</b> +55 (54) 99109-7546</span>
-          <span><b>Linkedin:</b> <a
-              href="https://www.linkedin.com/in/pedro-konig-scheurer/ ">https://www.linkedin.com/in/pedro-konig-scheurer/</a></span>
-
-
-        </p>
+      <div class="bg-gray-50 pb-12 px-10 font-corpo">
+        <div class="mt-10 p-5 shadow-lg bg-white">
+          <p class="text-lg flex flex-col">
+            <span><b>Email:</b> pedrokgsr@hotmail.com</span>
+            <span class="my-5"><b>Telefone:</b> +55 (54) 99109-7546</span>
+            <span><b>Linkedin:</b> <a
+                href="https://www.linkedin.com/in/pedro-konig-scheurer/ ">https://www.linkedin.com/in/pedro-konig-scheurer/</a></span>
+          </p>
+        </div>
       </div>
     </section>
   </main>
