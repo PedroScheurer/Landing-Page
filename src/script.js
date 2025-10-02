@@ -1,3 +1,6 @@
+const dataAtual = new Date()
+document.querySelector("#anoAtual").innerHTML = dataAtual.getFullYear()
+
 const borrarNav = () => {
     const nav = document.querySelector("nav");
     if (window.scrollY > 0 || !document.querySelector("#mobile-menu").classList.contains("hidden")) {

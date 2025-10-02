@@ -16,7 +16,7 @@
 
 <body class="flex flex-col min-h-screen">
   <nav
-    class="w-full lg:w-4/5 h-24 px-4 sm:px-6 md:px-14 left-1/2 -translate-x-1/2 flex items-center justify-start md:justify-center transition-all fixed top-0 backdrop-blur-lg rounded-md text-[#74798b] text-lg">
+    class="w-full lg:w-4/5 h-24 px-4 sm:px-6 md:px-14 left-1/2 -translate-x-1/2 flex items-center justify-start md:justify-center transition-all fixed top-0 z-50 backdrop-blur-lg rounded-md text-[#74798b] text-lg">
     <div id="nav-links" class="flex gap-x-16 font-corpo">
       <a href="#sobre" class="btn-nav">Sobre</a>
       <a href="#habilidades" class="btn-nav">Habilidades</a>
@@ -40,8 +40,7 @@
   <main class="w-full pt-56">
     <div class="flex justify-center flex-col mb-55">
       <h1 class="text-5xl font-bold underline text-center mb-5 font-titulo">Pedro König Scheurer</h1>
-      <h2 class="text-3xl font-bold text-center font-titulo text-[#74798b]">Desenvolvedor Fullstack Jr. | Node.js •
-        React • Java</h2>
+      <h2 class="text-3xl font-bold text-center font-titulo text-[#74798b]">Desenvolvedor Fullstack Jr.</h2>
       <div class="flex justify-center my-10 gap-x-4">
         <a href="https://www.linkedin.com/in/pedro-konig-scheurer/" target="_blank"
           class="group p-3 rounded-full bg-gray-200 hover:bg-blue-600 transition-colors duration-300">
@@ -76,7 +75,7 @@
       <div class="bg-gray-50 pb-5">
         <div class="w-full h-auto flex p-10 bg-black rounded-md font-titulo">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-8 h-8 text-white mr-4" x="0px" y="0px"
-           viewBox="0 0 50 50">
+            viewBox="0 0 50 50">
             <path
               d="M 25 1 C 11.222656 1 0 10.878906 0 23.1875 C 0 29.234375 2.773438 34.664063 7.21875 38.6875 C 6.546875 40.761719 5.046875 42.398438 3.53125 43.65625 C 2.714844 44.332031 1.933594 44.910156 1.3125 45.46875 C 1.003906 45.746094 0.722656 46.027344 0.5 46.375 C 0.277344 46.722656 0.078125 47.21875 0.21875 47.75 L 0.34375 48.15625 L 0.6875 48.375 C 1.976563 49.117188 3.582031 49.246094 5.3125 49.125 C 7.042969 49.003906 8.929688 48.605469 10.78125 48.09375 C 14.375 47.101563 17.75 45.6875 19.53125 44.90625 C 21.289063 45.273438 23.054688 45.5 24.90625 45.5 C 38.683594 45.5 49.90625 35.621094 49.90625 23.3125 C 49.90625 11.007813 38.78125 1 25 1 Z M 25 3 C 37.820313 3 47.90625 12.214844 47.90625 23.3125 C 47.90625 34.402344 37.730469 43.5 24.90625 43.5 C 23.078125 43.5 21.355469 43.320313 19.625 42.9375 L 19.28125 42.84375 L 19 43 C 17.328125 43.738281 13.792969 45.179688 10.25 46.15625 C 8.476563 46.644531 6.710938 47.019531 5.1875 47.125 C 4.167969 47.195313 3.539063 46.953125 2.84375 46.78125 C 3.339844 46.355469 4.019531 45.847656 4.8125 45.1875 C 6.554688 43.742188 8.644531 41.730469 9.375 38.75 L 9.53125 38.125 L 9.03125 37.75 C 4.625 34.015625 2 28.875 2 23.1875 C 2 12.097656 12.175781 3 25 3 Z M 23.8125 12.8125 C 23.511719 12.8125 23.40625 12.988281 23.40625 13.1875 L 23.40625 15.8125 C 23.40625 16.113281 23.613281 16.1875 23.8125 16.1875 L 26.1875 16.1875 C 26.488281 16.1875 26.59375 16.011719 26.59375 15.8125 L 26.59375 13.1875 C 26.59375 12.886719 26.386719 12.8125 26.1875 12.8125 Z M 23.90625 20.09375 C 23.605469 20.09375 23.5 20.300781 23.5 20.5 L 23.5 33.90625 C 23.5 34.207031 23.707031 34.3125 23.90625 34.3125 L 23.90625 34.40625 L 26.1875 34.40625 C 26.488281 34.40625 26.59375 34.199219 26.59375 34 L 26.59375 20.5 C 26.59375 20.199219 26.386719 20.09375 26.1875 20.09375 Z">
             </path>
@@ -107,8 +106,8 @@
     <section id="habilidades"
       class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 px-10">
       <div class="w-full flex h-auto p-10 shadow-lg bg-black rounded-md font-titulo">
-        <img class="w-10 h-10 invert mr-4" fill="currentColor" src="https://img.icons8.com/dotty/80/development-skill.png"
-          alt="development-skill" />
+        <img class="w-10 h-10 invert mr-4 z-0" fill="currentColor"
+          src="https://img.icons8.com/dotty/80/development-skill.png" alt="development-skill" />
         <h2 class="text-2xl text-white">HABILIDADES TÉCNICAS</h2>
       </div>
       <div class="bg-gray-50 pb-12 px-10 font-corpo">
@@ -211,7 +210,7 @@
     </section>
     <section id="projetos" class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 px-10">
       <div class="w-full flex h-auto p-10 shadow-lg bg-black rounded-md font-titulo">
-        <img class="w-10 h-10 invert mr-4" src="https://img.icons8.com/ios/50/project.png" alt="project"/>
+        <img class="w-10 h-10 invert mr-4 z-0" src="https://img.icons8.com/ios/50/project.png" alt="project" />
         <h2 class="text-2xl text-white">PROJETOS PESSOAIS</h2>
       </div>
       <div class="bg-gray-50 pb-12 px-10 font-corpo">
@@ -221,7 +220,7 @@
             <hr class="mb-5">
             <div class="flex justify-center">
               <a href="https://github.com/PedroScheurer/yelp-camp">
-                <img src="/src/imgs/demo_yelp_camp.png" alt="yelp-camp" class="rounded-sm">
+                <img src="/src/imgs/demo_yelp_camp.png" alt="yelp-camp" class="rounded-sm w-md btn-image">
               </a>
             </div>
           </div>
@@ -230,7 +229,8 @@
             <hr class="mb-5">
             <div class="flex justify-center">
               <a href="https://github.com/PedroScheurer/livroJS/tree/main/cap13">
-                <img src="src/imgs/demo_controle_pessoal_livros.png" alt="controle-de-livros" class="rounded-sm">
+                <img src="src/imgs/demo_controle_pessoal_livros.png" alt="controle-de-livros"
+                  class="rounded-sm w-md btn-image">
               </a>
             </div>
           </div>
@@ -241,7 +241,7 @@
             <hr class="mb-5">
             <div class="flex justify-center">
               <a href="https://github.com/PedroScheurer/jogo2d-a-garra">
-                <img src="src/imgs/demo_jogo2D.png" alt="" class="rounded-sm">
+                <img src="src/imgs/demo_jogo2D.png" alt="" class="rounded-sm w-md btn-image">
               </a>
             </div>
           </div>
@@ -250,7 +250,7 @@
             <hr class="mb-5">
             <div class="flex justify-center">
               <a href="https://github.com/PedroScheurer/CRUD-Biblioteca">
-                <img src="/src/imgs/demo_biblioteca.png" alt="CRUD-Biblioteca" class="rounded-sm max-w-md">
+                <img src="/src/imgs/demo_biblioteca.png" alt="CRUD-Biblioteca" class="rounded-sm w-sm btn-image">
               </a>
             </div>
           </div>
@@ -260,13 +260,14 @@
     <section id="experiencia"
       class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 p-10">
       <div class="w-full h-auto flex p-10 shadow-lg bg-black rounded-md font-titulo">
-        <img class="w-8 h-8 invert mr-4" src="https://img.icons8.com/windows/32/briefcase-settings.png" alt="briefcase-settings"/>
+        <img class="w-8 h-8 invert mr-4" src="https://img.icons8.com/windows/32/briefcase-settings.png"
+          alt="briefcase-settings" />
         <h2 class="text-2xl text-white">MINHA EXPERIÊNCIA</h2>
       </div>
       <div class="bg-gray-50 pb-12 px-10 font-corpo">
         <div class="w-full h-auto flex flex-col items-center mt-10">
           <div class="w-full md:w-4/5 p-5 shadow-lg text-start md:mt-0 bg-white">
-            <h3 class="text-2xl py-3">Suporte Técnico | 2023 - Atual</h3>
+            <h3 class="text-2xl py-3">Suporte Técnico | SBsistemas | 2023 - Atual</h3>
             <hr class="mb-5">
             <div class="flex justify-center">
               <a href="https://www.sbsistemas.com.br/">
@@ -281,7 +282,7 @@
               <li class="my-4">- Gestão de tarefas e tempo</li>
             </ul>
             <p class="text-lg mt-10">
-              Consegui desenvolver principalmente a minha comunição e meu trabalho em equipe. Além disso,
+              Desenvolvimento de comunição e trabalho em equipe. Além disso,
               evoluí fortemente o meu raciocínio lógico na resolução de problemas técnicos.
             </p>
           </div>
@@ -291,25 +292,63 @@
     <section id="contato"
       class="w-full lg:w-5/6 mx-auto h-auto flex flex-col bg-cover bg-center bg-white pt-32 px-10 mb-70">
       <div class="w-full h-auto flex p-10 shadow-lg bg-black rounded-md font-titulo">
-        <img class="w-8 h-8 invert mr-4" src="https://img.icons8.com/ios/50/phone-disconnected.png" alt="phone-disconnected"/>
+        <img class="w-8 h-8 invert mr-4" src="https://img.icons8.com/ios/50/phone-disconnected.png"
+          alt="phone-disconnected" />
         <h2 class="text-2xl text-white">MEUS CONTATOS</h2>
       </div>
       <div class="bg-gray-50 pb-12 px-10 font-corpo">
         <div class="mt-10 p-5 shadow-lg bg-white">
           <p class="text-lg flex flex-col">
             <span><b>Email:</b> pedrokgsr@hotmail.com</span>
-            <span class="my-5"><b>Telefone:</b> +55 (54) 99109-7546</span>
-            <span><b>Linkedin:</b> <a
-                href="https://www.linkedin.com/in/pedro-konig-scheurer/ ">https://www.linkedin.com/in/pedro-konig-scheurer/</a></span>
+            <span class="my-5"><a href="https://wa.me/5554991097546"><b>Telefone:</b> +55 (54) 99109-7546</a></span>
+            <span><a href="https://www.linkedin.com/in/pedro-konig-scheurer/ "><b>Linkedin:</b>
+                https://www.linkedin.com/in/pedro-konig-scheurer/</a></span>
           </p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="w-full bg-black py-3 mt-auto">
-    <div class="text-center">
-      <span class="text-gray-400">&copy; Pedro Konig Scheurer 2025</span>
+  <footer class="flex flex-col md:flex-row justify-between items-center w-full h-auto bg-black px-10 py-5 mx-auto">
+    <div class="w-full max-w-[300px] flex items-center">
+      <span class="text-gray-400 font-corpo">"O espírito humano precisa prevalecer sobre a tecnologia." — Albert
+        Einstein</span>
+    </div>
+    <div class="flex flex-row aling-end items-center">
+      <div class="flex justify-center my-10 gap-x-4">
+        <a href="https://www.linkedin.com/in/pedro-konig-scheurer/" target="_blank"
+          class="group p-2 rounded-full bg-gray-200 hover:bg-blue-600 transition-colors duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+            class="w-6 h-6 text-gray-700 group-hover:text-white transition-colors duration-300" fill="currentColor">
+            <path d="M19 0h-14C2.24 0 0 2.24 0 5.01v13.98C0 21.76 
+             2.24 24 5.01 24h13.98C21.76 24 24 21.76 24 
+             18.99V5.01C24 2.24 21.76 0 18.99 0zM7.12 
+             20.45H3.56V9h3.56v11.45zM5.34 7.44c-1.14 
+             0-2.06-.93-2.06-2.07s.92-2.07 
+             2.06-2.07c1.13 0 2.06.93 
+             2.06 2.07s-.93 2.07-2.06 
+             2.07zm15.11 13.01h-3.56v-5.59c0-1.33-.03-3.05-1.86-3.05-1.86 
+             0-2.14 1.45-2.14 2.96v5.68h-3.56V9h3.42v1.56h.05c.48-.9 
+             1.66-1.86 3.42-1.86 3.66 0 4.34 2.41 
+             4.34 5.55v6.2z" />
+          </svg>
+        </a>
+        <div class="flex justify-center">
+          <a href="https://github.com/PedroScheurer" target="_blank"
+            class="group inline-flex items-center justify-center p-2 rounded-full bg-gray-200 hover:bg-gray-800 transition-colors duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              class="w-6 h-6 text-gray-700 group-hover:text-white transition-colors duration-300" fill="currentColor">
+              <path
+                d="M12 0.297C5.373 0.297 0 5.67 0 12.297c0 5.292 3.438 9.77 8.205 11.366.6.11.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.753-1.333-1.753-1.09-.744.083-.729.083-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.807 1.304 3.492.997.108-.775.42-1.304.763-1.604-2.665-.3-5.466-1.334-5.466-5.933 0-1.31.468-2.38 1.235-3.22-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.48 11.48 0 013.003-.404c1.02.005 2.045.138 3.003.404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.873.12 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.63-5.48 5.926.431.372.815 1.102.815 2.222 0 1.604-.014 2.896-.014 3.286 0 .32.216.694.825.576C20.565 22.064 24 17.587 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex items-center">
+      <span class="text-gray-400 font-medium font-titulo">Powered by Pedro König Scheurer &copy; <span
+          id="anoAtual"></span></span>
     </div>
   </footer>
   <script type="module" src="/src/script.js"></script>
